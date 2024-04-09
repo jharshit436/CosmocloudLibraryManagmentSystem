@@ -2,7 +2,7 @@ import env
 from pymongo import MongoClient
 
 
-MONGO_URI = env.MONGO_URI
+MONGO_URI = env.ATLAS_URL
 
 conn = MongoClient(MONGO_URI)
 
